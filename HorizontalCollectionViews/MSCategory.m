@@ -63,9 +63,10 @@
 
         NSString *nextLink = [category objectForKey:@"next"];
         if ([nextLink length] > 0) {
+            NSString *seeMoreImagePath = [[NSBundle mainBundle] URLForResource:@"SeeAll@3x" withExtension:@".png"].absoluteString;
             MSVideo *showAllLink = [[MSVideo alloc] initWithDictionary:@{ @"title": @"",
                                                                           @"url": nextLink,
-                                                                          @"thumbnail": @"http://www.kakocleaning.com.au/wp-content/uploads/2014/09/see-more-button.png",
+                                                                          @"thumbnail": seeMoreImagePath,
                                                                           @"description": @""
                                                                           }];
             self.videos = [self.videos arrayByAddingObject:showAllLink];

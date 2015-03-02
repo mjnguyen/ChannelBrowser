@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124008141AA4E9250096B499 /* SeeAll.png in Resources */ = {isa = PBXBuildFile; fileRef = 124008111AA4E9250096B499 /* SeeAll.png */; };
+		124008151AA4E9250096B499 /* SeeAll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 124008121AA4E9250096B499 /* SeeAll@2x.png */; };
+		124008161AA4E9250096B499 /* SeeAll@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 124008131AA4E9250096B499 /* SeeAll@3x.png */; };
 		125F66B31AA4600900FBA914 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B21AA4600900FBA914 /* APIManager.m */; };
 		125F66B81AA4603400FBA914 /* MSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B51AA4603400FBA914 /* MSCategory.m */; };
 		125F66B91AA4603400FBA914 /* MSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B71AA4603400FBA914 /* MSVideo.m */; };
@@ -33,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		024DF8C1E170C0CC09E25D72 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		124008111AA4E9250096B499 /* SeeAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SeeAll.png; path = Resources/SeeAll.png; sourceTree = "<group>"; };
+		124008121AA4E9250096B499 /* SeeAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeeAll@2x.png"; path = "Resources/SeeAll@2x.png"; sourceTree = "<group>"; };
+		124008131AA4E9250096B499 /* SeeAll@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeeAll@3x.png"; path = "Resources/SeeAll@3x.png"; sourceTree = "<group>"; };
 		125F66B11AA4600900FBA914 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		125F66B21AA4600900FBA914 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 		125F66B41AA4603400FBA914 /* MSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCategory.h; sourceTree = "<group>"; };
@@ -105,6 +111,39 @@
 			name = Managers;
 			sourceTree = "<group>";
 		};
+		125F66BA1AA4E57400FBA914 /* ORGSync */ = {
+			isa = PBXGroup;
+			children = (
+				E6F322801725826700678247 /* ORGAppDelegate.h */,
+				E6F322811725826700678247 /* ORGAppDelegate.m */,
+				E6F322891725826700678247 /* ORGMasterViewController.h */,
+				E6F3228A1725826700678247 /* ORGMasterViewController.m */,
+				E6F3228C1725826700678247 /* ORGDetailViewController.h */,
+				E6F3228D1725826700678247 /* ORGDetailViewController.m */,
+				E6F3228F1725826700678247 /* ORGMasterViewController.xib */,
+				E6F322921725826700678247 /* ORGDetailViewController.xib */,
+				E6F3229A1725852300678247 /* ORGContainerCell.h */,
+				E6F3229B1725852300678247 /* ORGContainerCell.m */,
+				E6F3229D1725854D00678247 /* ORGContainerCellView.h */,
+				E6F3229E1725854E00678247 /* ORGContainerCellView.m */,
+				E6F322A01725856800678247 /* ORGContainerCellView.xib */,
+				E6F322AA1726D4DD00678247 /* ORGArticleCollectionViewCell.h */,
+				E6F322AB1726D4DE00678247 /* ORGArticleCollectionViewCell.m */,
+				E6F322AD1726D4F700678247 /* ORGArticleCollectionViewCell.xib */,
+			);
+			name = ORGSync;
+			sourceTree = "<group>";
+		};
+		125F66BB1AA4E5B800FBA914 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				124008111AA4E9250096B499 /* SeeAll.png */,
+				124008121AA4E9250096B499 /* SeeAll@2x.png */,
+				124008131AA4E9250096B499 /* SeeAll@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		ADC7A47E6DEB6F713B4CC104 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,24 +185,10 @@
 		E6F322771725826700678247 /* HorizontalCollectionViews */ = {
 			isa = PBXGroup;
 			children = (
+				125F66BB1AA4E5B800FBA914 /* Resources */,
 				125F66B01AA45FE700FBA914 /* Managers */,
 				125F66AF1AA45FD300FBA914 /* Models */,
-				E6F322801725826700678247 /* ORGAppDelegate.h */,
-				E6F322811725826700678247 /* ORGAppDelegate.m */,
-				E6F322891725826700678247 /* ORGMasterViewController.h */,
-				E6F3228A1725826700678247 /* ORGMasterViewController.m */,
-				E6F3228C1725826700678247 /* ORGDetailViewController.h */,
-				E6F3228D1725826700678247 /* ORGDetailViewController.m */,
-				E6F3228F1725826700678247 /* ORGMasterViewController.xib */,
-				E6F322921725826700678247 /* ORGDetailViewController.xib */,
-				E6F3229A1725852300678247 /* ORGContainerCell.h */,
-				E6F3229B1725852300678247 /* ORGContainerCell.m */,
-				E6F3229D1725854D00678247 /* ORGContainerCellView.h */,
-				E6F3229E1725854E00678247 /* ORGContainerCellView.m */,
-				E6F322A01725856800678247 /* ORGContainerCellView.xib */,
-				E6F322AA1726D4DD00678247 /* ORGArticleCollectionViewCell.h */,
-				E6F322AB1726D4DE00678247 /* ORGArticleCollectionViewCell.m */,
-				E6F322AD1726D4F700678247 /* ORGArticleCollectionViewCell.xib */,
+				125F66BA1AA4E57400FBA914 /* ORGSync */,
 				E6F322781725826700678247 /* Supporting Files */,
 			);
 			path = HorizontalCollectionViews;
@@ -237,9 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124008161AA4E9250096B499 /* SeeAll@3x.png in Resources */,
+				124008151AA4E9250096B499 /* SeeAll@2x.png in Resources */,
 				E6F3227C1725826700678247 /* InfoPlist.strings in Resources */,
 				E6F322841725826700678247 /* Default.png in Resources */,
 				E6F322861725826700678247 /* Default@2x.png in Resources */,
+				124008141AA4E9250096B499 /* SeeAll.png in Resources */,
 				E6F322881725826700678247 /* Default-568h@2x.png in Resources */,
 				E6F322911725826700678247 /* ORGMasterViewController.xib in Resources */,
 				E6F322941725826700678247 /* ORGDetailViewController.xib in Resources */,

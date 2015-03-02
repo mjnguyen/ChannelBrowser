@@ -68,7 +68,6 @@
     cell.articleTitle.text = [NSString stringWithFormat:@"%@", [cellData title]];
 
     NSURL *thumbnailUrl = [NSURL URLWithString:[cellData thumbnail]];
-    NSLog(@"Setting thumbnail: %@", thumbnailUrl);
 
     [cell.articleImage setImageWithURL:thumbnailUrl];
     
