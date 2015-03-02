@@ -63,19 +63,22 @@
     // Register the table cell
     [self.tableView registerClass:[ORGContainerCell class] forCellReuseIdentifier:@"ORGContainerCell"];
 
-    // Add observer that will allow the nested collection cell to trigger the view controller select row at index path
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
 
 }
 
 - (void)didReceiveMemoryWarning
 {
+    NSLog(@"memory error");
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (void)dealloc
-{
+-(void)viewWillAppear:(BOOL)animated {
+    // Add observer that will allow the nested collection cell to trigger the view controller select row at index path
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
+
+}
+-(void)viewWillDisappear:(BOOL)animated  {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"didSelectItemFromCollectionView" object:nil];
 }
 
@@ -125,7 +128,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // This code is commented out in order to allow users to click on the collection view cells.
+ // This code is commented out in order to allow users to click on the collection view cells.
 //    if (!self.detailViewController) {
 //        self.detailViewController = [[ORGDetailViewController alloc] initWithNibName:@"ORGDetailViewController" bundle:nil];
 //    }
