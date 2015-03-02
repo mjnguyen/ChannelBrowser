@@ -10,6 +10,8 @@
 		124008141AA4E9250096B499 /* SeeAll.png in Resources */ = {isa = PBXBuildFile; fileRef = 124008111AA4E9250096B499 /* SeeAll.png */; };
 		124008151AA4E9250096B499 /* SeeAll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 124008121AA4E9250096B499 /* SeeAll@2x.png */; };
 		124008161AA4E9250096B499 /* SeeAll@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 124008131AA4E9250096B499 /* SeeAll@3x.png */; };
+		124008181AA4F3660096B499 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124008171AA4F3660096B499 /* Launch Screen.xib */; };
+		1240081A1AA4F3D60096B499 /* AppIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124008191AA4F3D60096B499 /* AppIcons.xcassets */; };
 		125F66B31AA4600900FBA914 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B21AA4600900FBA914 /* APIManager.m */; };
 		125F66B81AA4603400FBA914 /* MSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B51AA4603400FBA914 /* MSCategory.m */; };
 		125F66B91AA4603400FBA914 /* MSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B71AA4603400FBA914 /* MSVideo.m */; };
@@ -39,6 +41,8 @@
 		124008111AA4E9250096B499 /* SeeAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SeeAll.png; path = Resources/SeeAll.png; sourceTree = "<group>"; };
 		124008121AA4E9250096B499 /* SeeAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeeAll@2x.png"; path = "Resources/SeeAll@2x.png"; sourceTree = "<group>"; };
 		124008131AA4E9250096B499 /* SeeAll@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeeAll@3x.png"; path = "Resources/SeeAll@3x.png"; sourceTree = "<group>"; };
+		124008171AA4F3660096B499 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		124008191AA4F3D60096B499 /* AppIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcons.xcassets; sourceTree = "<group>"; };
 		125F66B11AA4600900FBA914 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		125F66B21AA4600900FBA914 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 		125F66B41AA4603400FBA914 /* MSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCategory.h; sourceTree = "<group>"; };
@@ -47,14 +51,14 @@
 		125F66B71AA4603400FBA914 /* MSVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideo.m; sourceTree = "<group>"; };
 		6F61BD9180AF55E3AF5671E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AB66E73DAE4260FAEFBBB23D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E6F3226E1725826700678247 /* HorizontalCollectionViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalCollectionViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F3226E1725826700678247 /* CatalogBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatalogBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F322711725826700678247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6F322731725826700678247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6F322751725826700678247 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E6F322791725826700678247 /* HorizontalCollectionViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizontalCollectionViews-Info.plist"; sourceTree = "<group>"; };
+		E6F322791725826700678247 /* CatalogBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatalogBrowser-Info.plist"; sourceTree = "<group>"; };
 		E6F3227B1725826700678247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6F3227D1725826700678247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E6F3227F1725826700678247 /* HorizontalCollectionViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizontalCollectionViews-Prefix.pch"; sourceTree = "<group>"; };
+		E6F3227F1725826700678247 /* CatalogBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatalogBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		E6F322801725826700678247 /* ORGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORGAppDelegate.h; sourceTree = "<group>"; };
 		E6F322811725826700678247 /* ORGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORGAppDelegate.m; sourceTree = "<group>"; };
 		E6F322831725826700678247 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 		E6F322651725826700678247 = {
 			isa = PBXGroup;
 			children = (
+				124008191AA4F3D60096B499 /* AppIcons.xcassets */,
+				124008171AA4F3660096B499 /* Launch Screen.xib */,
 				E6F322771725826700678247 /* HorizontalCollectionViews */,
 				E6F322701725826700678247 /* Frameworks */,
 				E6F3226F1725826700678247 /* Products */,
@@ -166,7 +172,7 @@
 		E6F3226F1725826700678247 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6F3226E1725826700678247 /* HorizontalCollectionViews.app */,
+				E6F3226E1725826700678247 /* CatalogBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,10 +203,10 @@
 		E6F322781725826700678247 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6F322791725826700678247 /* HorizontalCollectionViews-Info.plist */,
+				E6F322791725826700678247 /* CatalogBrowser-Info.plist */,
 				E6F3227A1725826700678247 /* InfoPlist.strings */,
 				E6F3227D1725826700678247 /* main.m */,
-				E6F3227F1725826700678247 /* HorizontalCollectionViews-Prefix.pch */,
+				E6F3227F1725826700678247 /* CatalogBrowser-Prefix.pch */,
 				E6F322831725826700678247 /* Default.png */,
 				E6F322851725826700678247 /* Default@2x.png */,
 				E6F322871725826700678247 /* Default-568h@2x.png */,
@@ -211,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E6F3226D1725826700678247 /* HorizontalCollectionViews */ = {
+		E6F3226D1725826700678247 /* CatalogBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6F322971725826700678247 /* Build configuration list for PBXNativeTarget "HorizontalCollectionViews" */;
+			buildConfigurationList = E6F322971725826700678247 /* Build configuration list for PBXNativeTarget "CatalogBrowser" */;
 			buildPhases = (
 				1E0F861A8F0A62CC18748DEF /* Check Pods Manifest.lock */,
 				E6F3226A1725826700678247 /* Sources */,
@@ -225,9 +231,9 @@
 			);
 			dependencies = (
 			);
-			name = HorizontalCollectionViews;
+			name = CatalogBrowser;
 			productName = HorizontalCollectionViews;
-			productReference = E6F3226E1725826700678247 /* HorizontalCollectionViews.app */;
+			productReference = E6F3226E1725826700678247 /* CatalogBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +246,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "OrgSync, LLC";
 			};
-			buildConfigurationList = E6F322691725826700678247 /* Build configuration list for PBXProject "HorizontalCollectionViews" */;
+			buildConfigurationList = E6F322691725826700678247 /* Build configuration list for PBXProject "CatalogBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -252,7 +258,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6F3226D1725826700678247 /* HorizontalCollectionViews */,
+				E6F3226D1725826700678247 /* CatalogBrowser */,
 			);
 		};
 /* End PBXProject section */
@@ -267,9 +273,11 @@
 				E6F3227C1725826700678247 /* InfoPlist.strings in Resources */,
 				E6F322841725826700678247 /* Default.png in Resources */,
 				E6F322861725826700678247 /* Default@2x.png in Resources */,
+				124008181AA4F3660096B499 /* Launch Screen.xib in Resources */,
 				124008141AA4E9250096B499 /* SeeAll.png in Resources */,
 				E6F322881725826700678247 /* Default-568h@2x.png in Resources */,
 				E6F322911725826700678247 /* ORGMasterViewController.xib in Resources */,
+				1240081A1AA4F3D60096B499 /* AppIcons.xcassets in Resources */,
 				E6F322941725826700678247 /* ORGDetailViewController.xib in Resources */,
 				E6F322A11725856800678247 /* ORGContainerCellView.xib in Resources */,
 				E6F322AE1726D4F900678247 /* ORGArticleCollectionViewCell.xib in Resources */,
@@ -419,10 +427,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB66E73DAE4260FAEFBBB23D /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HorizontalCollectionViews/HorizontalCollectionViews-Prefix.pch";
-				INFOPLIST_FILE = "HorizontalCollectionViews/HorizontalCollectionViews-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HorizontalCollectionViews/CatalogBrowser-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalCollectionViews/CatalogBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = CatalogBrowser;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F61BD9180AF55E3AF5671E7 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HorizontalCollectionViews/HorizontalCollectionViews-Prefix.pch";
-				INFOPLIST_FILE = "HorizontalCollectionViews/HorizontalCollectionViews-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HorizontalCollectionViews/CatalogBrowser-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalCollectionViews/CatalogBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = CatalogBrowser;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6F322691725826700678247 /* Build configuration list for PBXProject "HorizontalCollectionViews" */ = {
+		E6F322691725826700678247 /* Build configuration list for PBXProject "CatalogBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6F322951725826700678247 /* Debug */,
@@ -453,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6F322971725826700678247 /* Build configuration list for PBXNativeTarget "HorizontalCollectionViews" */ = {
+		E6F322971725826700678247 /* Build configuration list for PBXNativeTarget "CatalogBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6F322981725826700678247 /* Debug */,
