@@ -15,7 +15,7 @@
 		125F66B31AA4600900FBA914 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B21AA4600900FBA914 /* APIManager.m */; };
 		125F66B81AA4603400FBA914 /* MSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B51AA4603400FBA914 /* MSCategory.m */; };
 		125F66B91AA4603400FBA914 /* MSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F66B71AA4603400FBA914 /* MSVideo.m */; };
-		E25EF8F90E1A75C3EED33481 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 024DF8C1E170C0CC09E25D72 /* libPods.a */; };
+		5EBBE931F49C7B2E6A9F25FB /* libPods-CatalogBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E08FD4B1F11A1D09608B84C /* libPods-CatalogBrowser.a */; };
 		E6F322721725826700678247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F322711725826700678247 /* UIKit.framework */; };
 		E6F322741725826700678247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F322731725826700678247 /* Foundation.framework */; };
 		E6F322761725826700678247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F322751725826700678247 /* CoreGraphics.framework */; };
@@ -37,7 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		024DF8C1E170C0CC09E25D72 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		124008111AA4E9250096B499 /* SeeAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SeeAll.png; path = Resources/SeeAll.png; sourceTree = "<group>"; };
 		124008121AA4E9250096B499 /* SeeAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeeAll@2x.png"; path = "Resources/SeeAll@2x.png"; sourceTree = "<group>"; };
 		124008131AA4E9250096B499 /* SeeAll@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeeAll@3x.png"; path = "Resources/SeeAll@3x.png"; sourceTree = "<group>"; };
@@ -49,8 +48,9 @@
 		125F66B51AA4603400FBA914 /* MSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCategory.m; sourceTree = "<group>"; };
 		125F66B61AA4603400FBA914 /* MSVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideo.h; sourceTree = "<group>"; };
 		125F66B71AA4603400FBA914 /* MSVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideo.m; sourceTree = "<group>"; };
-		6F61BD9180AF55E3AF5671E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		AB66E73DAE4260FAEFBBB23D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1E08FD4B1F11A1D09608B84C /* libPods-CatalogBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CatalogBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C36281A3F6D593056C7C151 /* Pods-CatalogBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatalogBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatalogBrowser/Pods-CatalogBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		CA75094427B9C97359B15A56 /* Pods-CatalogBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatalogBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatalogBrowser/Pods-CatalogBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		E6F3226E1725826700678247 /* CatalogBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatalogBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F322711725826700678247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6F322731725826700678247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,7 +88,7 @@
 				E6F322721725826700678247 /* UIKit.framework in Frameworks */,
 				E6F322741725826700678247 /* Foundation.framework in Frameworks */,
 				E6F322761725826700678247 /* CoreGraphics.framework in Frameworks */,
-				E25EF8F90E1A75C3EED33481 /* libPods.a in Frameworks */,
+				5EBBE931F49C7B2E6A9F25FB /* libPods-CatalogBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,11 +148,11 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		ADC7A47E6DEB6F713B4CC104 /* Pods */ = {
+		DCC0DC0727BB717F3C803A9D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB66E73DAE4260FAEFBBB23D /* Pods.debug.xcconfig */,
-				6F61BD9180AF55E3AF5671E7 /* Pods.release.xcconfig */,
+				CA75094427B9C97359B15A56 /* Pods-CatalogBrowser.debug.xcconfig */,
+				3C36281A3F6D593056C7C151 /* Pods-CatalogBrowser.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 				E6F322771725826700678247 /* HorizontalCollectionViews */,
 				E6F322701725826700678247 /* Frameworks */,
 				E6F3226F1725826700678247 /* Products */,
-				ADC7A47E6DEB6F713B4CC104 /* Pods */,
+				DCC0DC0727BB717F3C803A9D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,7 +183,7 @@
 				E6F322711725826700678247 /* UIKit.framework */,
 				E6F322731725826700678247 /* Foundation.framework */,
 				E6F322751725826700678247 /* CoreGraphics.framework */,
-				024DF8C1E170C0CC09E25D72 /* libPods.a */,
+				1E08FD4B1F11A1D09608B84C /* libPods-CatalogBrowser.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,11 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F322971725826700678247 /* Build configuration list for PBXNativeTarget "CatalogBrowser" */;
 			buildPhases = (
-				1E0F861A8F0A62CC18748DEF /* Check Pods Manifest.lock */,
+				4206AF098E2A7658EB2EF389 /* [CP] Check Pods Manifest.lock */,
 				E6F3226A1725826700678247 /* Sources */,
 				E6F3226B1725826700678247 /* Frameworks */,
 				E6F3226C1725826700678247 /* Resources */,
-				48F6542B3C4DA978A2153F63 /* Copy Pods Resources */,
+				1F1D668B4600C7430668DD6D /* [CP] Embed Pods Frameworks */,
+				CC4DC937E557131D6CC4B9C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ORG;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "OrgSync, LLC";
 			};
 			buildConfigurationList = E6F322691725826700678247 /* Build configuration list for PBXProject "CatalogBrowser" */;
@@ -287,14 +288,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E0F861A8F0A62CC18748DEF /* Check Pods Manifest.lock */ = {
+		1F1D668B4600C7430668DD6D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatalogBrowser/Pods-CatalogBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4206AF098E2A7658EB2EF389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,19 +318,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		48F6542B3C4DA978A2153F63 /* Copy Pods Resources */ = {
+		CC4DC937E557131D6CC4B9C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatalogBrowser/Pods-CatalogBrowser-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -381,6 +397,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -392,7 +409,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -416,7 +433,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -425,7 +442,7 @@
 		};
 		E6F322981725826700678247 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB66E73DAE4260FAEFBBB23D /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CA75094427B9C97359B15A56 /* Pods-CatalogBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -433,6 +450,7 @@
 				GCC_PREFIX_HEADER = "HorizontalCollectionViews/CatalogBrowser-Prefix.pch";
 				INFOPLIST_FILE = "HorizontalCollectionViews/CatalogBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.forevernow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CatalogBrowser;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -441,7 +459,7 @@
 		};
 		E6F322991725826700678247 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F61BD9180AF55E3AF5671E7 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 3C36281A3F6D593056C7C151 /* Pods-CatalogBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -449,6 +467,7 @@
 				GCC_PREFIX_HEADER = "HorizontalCollectionViews/CatalogBrowser-Prefix.pch";
 				INFOPLIST_FILE = "HorizontalCollectionViews/CatalogBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.forevernow.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CatalogBrowser;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;

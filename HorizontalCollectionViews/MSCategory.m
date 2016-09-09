@@ -63,7 +63,7 @@
 
         NSString *nextLink = [category objectForKey:@"next"];
         if ([nextLink length] > 0) {
-            NSString *seeMoreImagePath = [[NSBundle mainBundle] URLForResource:@"SeeAll@3x" withExtension:@".png"].absoluteString;
+            NSString *seeMoreImagePath = [[NSBundle mainBundle] URLForResource:@"SeeAll" withExtension:@".png"].absoluteString;
             MSVideo *showAllLink = [[MSVideo alloc] initWithDictionary:@{ @"title": @"",
                                                                           @"url": nextLink,
                                                                           @"thumbnail": seeMoreImagePath,

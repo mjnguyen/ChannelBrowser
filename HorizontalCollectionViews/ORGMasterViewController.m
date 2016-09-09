@@ -17,7 +17,7 @@
 #import "APIManager.h"
 
 @interface ORGMasterViewController ()
-@property (weak, nonatomic) UITableView *tableView;
+//@property (weak, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSString *pageUrl;
 @property (strong, nonatomic) MSCategory *homeCategory;
 
@@ -42,7 +42,7 @@
 
     APIManager *mgr = [APIManager sharedManager];
     if (self.pageUrl == nil) { // bootstrap the controller
-        self.pageUrl = @"http://d1d0j1u9ayd8uc.cloudfront.net/channels/YIK8ILLV/categories/v2/home.kindle.json";
+        self.pageUrl = @"http://d1d0j1u9ayd8uc.cloudfront.net/channels/13VOZNVQ/categories/v2/home.atv4.json";
     }
 
     [mgr getCategoriesForChannel:self.pageUrl withCompletionBlock:^(MSCategory *homeCategory, NSError *error) {
@@ -74,11 +74,13 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear: animated];
     // Add observer that will allow the nested collection cell to trigger the view controller select row at index path
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
 
 }
 -(void)viewWillDisappear:(BOOL)animated  {
+    [super viewWillDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"didSelectItemFromCollectionView" object:nil];
 }
 

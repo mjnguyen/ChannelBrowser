@@ -23,17 +23,19 @@ PODS:
   - HexColors (2.2.1)
   - MBProgressHUD (0.9)
   - TSMessages (0.9.12):
-    - HexColors
+    - HexColors (~> 2.2.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.5)
+  - AFNetworking
   - MBProgressHUD
   - TSMessages
 
 SPEC CHECKSUMS:
-  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
-  HexColors: 01384d2bbe8dc4ffa43c3b4135db6e976952d153
-  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
-  TSMessages: b2b5dc71f65146387e51f2600bb0eb8f3a6c4ab8
+  AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
 
-COCOAPODS: 0.35.0
+PODFILE CHECKSUM: 402204f40d8edd3860fea4e13aa53195a3c0c36f
+
+COCOAPODS: 1.0.1
